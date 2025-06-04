@@ -30,6 +30,7 @@ body {
     padding-right: 400px;
     padding-bottom: 10px;
     border-bottom: 2px solid rgb(128, 128, 128);
+
 }
 
 .main_planner {
@@ -77,6 +78,16 @@ body {
 
 }
 
+.check_n {
+    color: red;
+    border: 2px solid red;
+    padding: 3px;
+    border-radius: 50%;
+    border-width: 2px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
 .list {
     font-weight: bolder;
     font-size: larger;
@@ -110,6 +121,40 @@ body {
 
 .recruiting_button {
     background-color: #2cc6ab;
+    color: #ffffff;
+    border: 0;
+    border-radius: 12px;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.mobile_button {
+    background-color: #ff9b00;
+    color: #ffffff;
+    border: 0;
+    border-radius: 12px;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.website_button {
+    background-color: #ec4fa0;
+    color: #ffffff;
+    border: 0;
+    border-radius: 12px;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+
+.sales_button {
+    background-color: #a3d116;
     color: #ffffff;
     border: 0;
     border-radius: 12px;
