@@ -69,14 +69,52 @@ body {
     color: #a7e7dc;
     border: 2px solid #a7e7dc;
     padding: 3px;
-    border-radius: 500px;
-    padding-left: 50px;
+    border-radius: 50%;
+    border-width: 2px;
+    margin-left: 50px;
+    margin-right: 10px;
+
 
 }
 
-.new_task_list {
-    font-weight: bold;
+.list {
+    font-weight: bolder;
     font-size: larger;
     margin-top: 30px;
+    margin-bottom: 20px;
     padding-left: 50px;
+}
+
+.editorial_button {
+    background-color: #14aaf5;
+    color: #ffffff;
+    border: 0;
+    border-radius: 12px;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+
+.q1goals_button {
+    background-color: #ab5de6;
+    color: #ffffff;
+    border: 0;
+    border-radius: 12px;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.recruiting_button {
+    background-color: #2cc6ab;
+    color: #ffffff;
+    border: 0;
+    border-radius: 12px;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
 }
