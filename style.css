@@ -1,3 +1,4 @@
+/* #region header */
 .logo_image {
     width: 53px;
     height: 54px;
@@ -10,12 +11,6 @@
     font-weight: bold;
 }
 
-body {
-    background-color: #f6f8f9;
-    margin: 0%;
-    padding: 0%;
-}
-
 .header_logo {
     background-color: #ffffff;
     width: 100%;
@@ -24,23 +19,22 @@ body {
     padding: 10px;
 }
 
+/* #endregion header */
+/* #region body */
+body {
+    background-color: #f6f8f9;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* #endregion body */
+/*#region top main*/
 .options {
     margin-top: 60px;
     padding-left: 50px;
     padding-right: 400px;
     padding-bottom: 10px;
     border-bottom: 2px solid rgb(128, 128, 128);
-
-}
-
-.main_planner {
-    background-color: #ffffff;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
 
 }
 
@@ -66,6 +60,20 @@ body {
     margin-top: 15px;
 }
 
+/*#endregion top main*/
+/*#region main background*/
+.main_planner {
+    background-color: #ffffff;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*#endregion main background*/
+/* #region check and cross symbols*/
 .check_p {
     color: #a7e7dc;
     border: 2px solid #a7e7dc;
@@ -88,6 +96,8 @@ body {
     margin-right: 10px;
 }
 
+/* #endregion check and cross symbols*/
+/* #region list*/
 .list {
     font-weight: bolder;
     font-size: larger;
@@ -96,6 +106,8 @@ body {
     padding-left: 50px;
 }
 
+/* #endregion list*/
+/* #region button */
 .editorial_button {
     background-color: #14aaf5;
     color: #ffffff;
@@ -163,3 +175,5 @@ body {
     font-size: 12px;
     margin-bottom: 10px;
 }
+
+/* #endregion button */
